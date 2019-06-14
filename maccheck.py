@@ -11,7 +11,8 @@ import json
 
 # Let us check the key
 key = os.environ["key"]
-
+if key == '':
+    print("Read the README and set your key as described.")
 
 # we shall accept only one argument 
 
