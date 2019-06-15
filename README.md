@@ -31,7 +31,7 @@ Security notes:
 Other notes:
 
 + Docstrings could have been used but neglected.
-+ 
++ This is just a script being served as in a container therefore, serving the product to the end-customer is a pretty dumb approach - manual (coz it needs to take an argument).
 
 # example of a query - how it should look like:
 
