@@ -4,7 +4,7 @@ Just an automated way to check the mac
 + First, (fork and or) clone the repo.
 + Run the docker build on the Dockerfile in the repo.
 + Run and attach to the container.
-+ Go to the source and run the python script with a (valid) mac address as an argument..
++ Go to the source and run the python script with a (valid) mac address as an argument.
 
 # (simple) Usage
 
@@ -22,6 +22,10 @@ Just an automated way to check the mac
 3. This time run ./macheck.py [mac address]
 
 Ex: export key=`cat ~/.macaddress_token` && ./maccheck.py
+
+# Token setup:
+
+Save the token at a place convenient to you and export it to a variable called key.
 
 Security notes:
 
